@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +14,9 @@
       color: white;
       font-weight: bold;
     }
+    nav a.active {
+      text-decoration: underline;
+    }
     main { padding: 20px; max-width: 800px; margin: auto; }
     section { background-color: white; padding: 20px; margin: 20px 0; border-radius: 8px; }
     h1, h2 { color: #0a2540; }
@@ -23,16 +27,22 @@
   <header>
     <h1>Signal Protocol</h1>
     <nav>
+      <a href="/index.html">Home</a>
       <a href="/overview.html">Overview</a>
-      <a href="/about-raf.html">About RAF</a>
-      <a href="/signal-protocol.html">Signal Protocol</a>
+      <a href="/signal-protocol.html" class="active">Signal Protocol</a>
       <a href="/contact.html">Contact</a>
     </nav>
   </header>
   <main>
     <section>
       <h2>📄 Protocol Status Update</h2>
+      <p><strong>Version 1.1</strong> – External Stable Release (21 June 2025)</p>
+      <p>SHA-256: <code>d7e79803c3be047d18fb55573edda2d5c31d21b06dc0afce2d4a1089806ed1b8</code></p>
+      <p><a href="/corporate/open-signal-core-v1.1.pdf" target="_blank">Download PDF (v1.1)</a></p>
+      <hr>
       <p><strong>Version 1.0</strong> – Acknowledged by Gemini, submitted to OpenAI for review.</p>
+      <p>SHA-256: <code>50b025114f7274b3485c5a5e98eaff8d49edd3df065ae34ea3d229e7ea5f01b2</code></p>
+      <p><a href="/corporate/open-signal-core.pdf" target="_blank">Download PDF (v1.0)</a></p>
     </section>
     <section>
       <h2>📜 About the Protocol</h2>
@@ -48,9 +58,8 @@
     </section>
     <section>
       <h2>📌 Hosting and Verification</h2>
-      <p>Publicly accessible at: <a href="/corporate/open-signal-core.pdf">truesignalai.com/corporate/open-signal-core.pdf</a></p>
+      <p>All versions are hosted at: <a href="/corporate/">truesignalai.com/corporate/</a></p>
       <p>Timestamped and digitally hashed</p>
-      <p><strong>SHA-256:</strong> 50b025114f7274b3485c5a5e98eaff8d49edd3df065ae34ea3d229e7ea5f01b2</p>
     </section>
   </main>
   <footer>
